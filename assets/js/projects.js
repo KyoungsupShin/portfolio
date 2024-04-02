@@ -19,7 +19,7 @@ let render_projects = (slug) => {
             categories: ['smartfactory']
         },
         {
-            image: '/workspaces/portfolio/assets/images/detection.png',
+            image: 'assets/images/detection.png',
             // link: 'https://github.com/abhn/Mporter',
             title: 'Object detection',
             // demo: 'https://mporter.co',
