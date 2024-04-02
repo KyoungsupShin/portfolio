@@ -560,7 +560,7 @@ a {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 800px) {
   .head-menu-wrap {
     -ms-grid-columns: auto auto;
         grid-template-columns: auto auto;
