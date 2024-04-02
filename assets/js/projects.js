@@ -2,7 +2,6 @@ $(document).ready(() => {
     render_projects('featured');
 })
 
-
 let render_projects = (slug) => {
     let projects_area = $('.projects-wrapper');
 
