@@ -21,9 +21,9 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/detection.png',
             // link: 'https://github.com/abhn/Mporter',
-            title: 'Objectdetection',
+            title: 'Object detection',
             // demo: 'https://mporter.co',
-            technologies: ['CentOS', 'RTSP', 'YOLOv5', 'Spotfire', 'Python'],
+            technologies: ['RTPS', 'CentOS', 'Pytorch', 'YOLOv5', 'PyQT5'],
             description: "실시간 이미지 프로세싱 개발 / 결과 분석 가시화 / 레시피 결과 분석",
             categories: ['smartfactory']
         },
@@ -33,7 +33,7 @@ let render_projects = (slug) => {
             // link: 'https://github.com/abhn/Mporter',
             title: 'Segmentation',
             // demo: 'https://mporter.co',
-            technologies: ['FTP', 'CentOS', 'Pytorch', 'Detectron'],
+            technologies: ['FTP', 'CentOS', 'Pytorch', 'Detectron', 'PyQT5'],
             description: "실시간 이미지 프로세싱 개발 / 결과 분석 가시화 / 레시피 결과 분석",
             categories: ['smartfactory']
         },
