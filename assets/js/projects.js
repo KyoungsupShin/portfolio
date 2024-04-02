@@ -11,7 +11,7 @@ let render_projects = (slug) => {
 
     let projects_obj = [
         {
-            image: 'assets/images/image_process.jpg',
+            image: 'assets/images/image_process.png',
             // link: 'https://github.com/abhn/Mporter',
             title: 'Smart Factory Image processing',
             // demo: 'https://mporter.co',
