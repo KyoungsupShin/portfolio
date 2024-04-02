@@ -98,6 +98,26 @@ let render_projects = (slug) => {
             categories: ['businessanalysis']
         },
 
+        {
+            image: 'assets/images/chat.png',
+            // link: 'https://github.com/abhn/Mporter',
+            title: 'Tech sensing',
+            // demo: 'https://mporter.co',
+            technologies: ['LLM', 'Azure', 'Streamlit', 'llamaindex', 'Selenium'],
+            description: "실시간 이미지 프로세싱 개발 / 결과 분석 가시화 / 레시피 결과 분석",
+            categories: ['aillm']
+        },
+
+        {
+            image: 'assets/images/rag.png',
+            // link: 'https://github.com/abhn/Mporter',
+            title: 'Document RAG',
+            // demo: 'https://mporter.co',
+            technologies: ['LLM', 'Azure', 'Streamlit', 'llamaindex', 'OCR'],
+            description: "실시간 이미지 프로세싱 개발 / 결과 분석 가시화 / 레시피 결과 분석",
+            categories: ['aillm']
+        },
+
     ]
 
     let projects = [];
