@@ -15,8 +15,8 @@ let render_projects = (slug) => {
             // link: 'https://github.com/abhn/Mporter',
             title: 'Smart Factory Image processing',
             // demo: 'https://mporter.co',
-            technologies: ['Python', 'CentOS', 'Pytorch', 'YOLOv5', 'PostgreSQL', 'Spotfire'],
-            description: "Flask web application for easy reporting updates to one's mentor. Multi-user support, easy to deploy and use.",
+            technologies: ['Python', 'RTSP프로토콜','CentOS', 'Pytorch', 'YOLOv5', 'PostgreSQL', 'Spotfire'],
+            description: "실시간 이미지 프로세싱 개발 / 결과 분석 가시화 / 레시피 결과 분석",
             categories: ['image_process']
         },
         {
@@ -49,7 +49,6 @@ let project_mapper = project => {
 
                 ${project.image ? 
                     `<div class="card__image border-tlr-radius">
-                        <a href="${project.link}">
                             <img src="${project.image}" alt="image" id="project-image" class="border-tlr-radius">
                         </a>
                     </div>`           
@@ -59,9 +58,9 @@ let project_mapper = project => {
                 <div class="card__content card__padding">
         
                     <article class="card__article">
-                        <h2><a href="${project.link}">${project.title}</a></h2>
+                        <h2>${project.title}</a></h2>
         
-                        <p class="paragraph-text-normal">${project.description} ${project.demo ? `<a href="${project.demo}">Demo</a>` : ''}</p>
+                        <p class="paragraph-text-normal">${project.description}</p>
                     </article>
 
                                 
