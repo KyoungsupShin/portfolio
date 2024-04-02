@@ -23,7 +23,7 @@ let render_projects = (slug) => {
             // link: 'https://github.com/abhn/Mporter',
             title: 'Object detection',
             // demo: 'https://mporter.co',
-            technologies: ['Python', 'RTSP프로토콜','CentOS', 'Pytorch', 'YOLOv5', 'PostgreSQL', 'Spotfire'],
+            technologies: ['CentOS', 'RTSP', 'YOLOv5', 'Spotfire'],
             description: "실시간 이미지 프로세싱 개발 / 결과 분석 가시화 / 레시피 결과 분석",
             categories: ['smartfactory']
         },
