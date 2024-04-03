@@ -111,7 +111,7 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/translate.png',
             // link: 'https://github.com/abhn/Mporter',
-            title: 'Document Translate',
+            title: 'Translate Document',
             // demo: 'https://mporter.co',
             technologies: ['LLM', 'Azure', 'Streamlit', 'llamaindex', 'OCR'],
             description: "실시간 이미지 프로세싱 개발 / 결과 분석 가시화 / 레시피 결과 분석",
