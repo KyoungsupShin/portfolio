@@ -79,6 +79,16 @@ let render_projects = (slug) => {
         },
 
         {
+            image: 'assets/images/spotfire.png',
+            // link: 'https://github.com/abhn/Mporter',
+            title: '제조 판매 법인 생산 KPIs 분석',
+            // demo: 'https://mporter.co',
+            technologies: ['Spotfire', 'MSSQL', 'APIs', 'GERP'],
+            description: "생산 데이터 KPIs 분석 / 불량 원인 분석 / Loss 산출",
+            categories: ['businessanalysis']
+        },
+
+        {
             image: 'assets/images/kr_sales.png',
             // link: 'https://github.com/abhn/Mporter',
             title: '한국 판매 법인 경영 정보 가시화',
