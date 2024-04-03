@@ -116,7 +116,7 @@ let render_projects = (slug) => {
             technologies: ['LLM', 'Azure', 'Streamlit', 'llamaindex', 'OCR'],
             description: "실시간 이미지 프로세싱 개발 / 결과 분석 가시화 / 레시피 결과 분석",
             categories: ['aillm']
-        },
+        }
 
     ]
 
