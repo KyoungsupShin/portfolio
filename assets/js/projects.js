@@ -15,7 +15,7 @@ let render_projects = (slug) => {
             title: 'Classification',
             // demo: 'https://mporter.co',
             technologies: ['CentOS', 'ResNet', 'APIs', 'Spotfire', 'Python'],
-            description: "실시간 이미지 프로세싱 개발 / 결과 분석 가시화 / 레시피 결과 분석",
+            description: "30가지 불량 분류 이미지 프로세싱 / 불량 패터닝 가시화 / 레시피 결과 분석",
             categories: ['smartfactory']
         },
         {
@@ -24,7 +24,7 @@ let render_projects = (slug) => {
             title: 'Object detection',
             // demo: 'https://mporter.co',
             technologies: ['RTPS', 'CentOS', 'Pytorch', 'YOLOv5', 'PyQT5'],
-            description: "실시간 이미지 프로세싱 개발 / 결과 분석 가시화 / 레시피 결과 분석",
+            description: "실시간 영상 프로세싱 / 불량 패터닝 가시화 / MES 및 설비 제어",
             categories: ['smartfactory']
         },
         {
@@ -32,8 +32,8 @@ let render_projects = (slug) => {
             // link: 'https://github.com/abhn/Mporter',
             title: 'Object detection & Report',
             // demo: 'https://mporter.co',
-            technologies: ['RTPS', 'CentOS', 'Pytorch', 'YOLOv5', 'PyQT5'],
-            description: "실시간 이미지 프로세싱 개발 / 결과 분석 가시화 / 레시피 결과 분석",
+            technologies: ['RTPS', 'CentOS', 'Pytorch', 'YOLOv5', 'APIs'],
+            description: "실시간 촬영 이미지 프로세싱 / 불량 패터닝 가시화 / MES 및 설비 제어",
             categories: ['smartfactory']
         },
 
@@ -43,7 +43,7 @@ let render_projects = (slug) => {
             title: 'Segmentation',
             // demo: 'https://mporter.co',
             technologies: ['FTP', 'CentOS', 'Pytorch', 'Detectron', 'PyQT5'],
-            description: "실시간 이미지 프로세싱 개발 / 결과 분석 가시화 / 레시피 결과 분석",
+            description: "촬영 이미지 분석 / 통계분석 가시화 / 촤적 레시피 산출 자동화",
             categories: ['smartfactory']
         },
 
@@ -52,8 +52,8 @@ let render_projects = (slug) => {
             // link: 'https://github.com/abhn/Mporter',
             title: 'Time series forecasting',
             // demo: 'https://mporter.co',
-            technologies: ['GRU', 'CentOS', 'XGBoost', 'Pytorch', 'Selenium'],
-            description: "실시간 이미지 프로세싱 개발 / 결과 분석 가시화 / 레시피 결과 분석",
+            technologies: ['GRU', 'CentOS', 'XGBoost', 'Pytorch', 'Selenium', 'APIs'],
+            description: "날씨 예보 API 데이터 엔지니어링 / XGBoost, GRU 예측 / Self-Train",
             categories: ['smartfactory']
         },
 
@@ -61,20 +61,20 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/us_atp.png',
             // link: 'https://github.com/abhn/Mporter',
-            title: 'US법인 물류 가시화 BI',
+            title: '미국 판매 법인 물류 가시화',
             // demo: 'https://mporter.co',
             technologies: ['PowerBI', 'Azure', 'Airflow', 'MSSQL', 'APIs', 'GERP'],
-            description: "실시간 이미지 프로세싱 개발 / 결과 분석 가시화 / 레시피 결과 분석",
+            description: "GERP실시간 인터페이스 / BI실시간 배치 / Airflow DAG",
             categories: ['businessanalysis']
         },
 
         {
             image: 'assets/images/us_sales_map.png',
             // link: 'https://github.com/abhn/Mporter',
-            title: '미국 판매 법인 물류 효율화',
+            title: '미국 판매 법인 물류 데이터 분석',
             // demo: 'https://mporter.co',
             technologies: ['PowerBI', 'Azure', 'Airflow', 'MSSQL', 'APIs', 'GERP'],
-            description: "실시간 이미지 프로세싱 개발 / 결과 분석 가시화 / 레시피 결과 분석",
+            description: "물류 데이터 비즈니스 분석 / Bottle neck 분석 / 비 효율 Loss산출",
             categories: ['businessanalysis']
         },
 
@@ -84,7 +84,7 @@ let render_projects = (slug) => {
             title: '한국 판매 법인 경영 정보 가시화',
             // demo: 'https://mporter.co',
             technologies: ['PowerBI', 'AWS', 'PostgreSQL', 'APIs', 'GERP'],
-            description: "실시간 이미지 프로세싱 개발 / 결과 분석 가시화 / 레시피 결과 분석",
+            description: "물류, 판매, BEP, 신용 데이터 가시화 / 엑셀 업무 자동화",
             categories: ['businessanalysis']
         },
 
@@ -94,7 +94,7 @@ let render_projects = (slug) => {
             title: 'Tech sensing',
             // demo: 'https://mporter.co',
             technologies: ['LLM', 'Azure', 'Streamlit', 'llamaindex', 'Selenium'],
-            description: "실시간 이미지 프로세싱 개발 / 결과 분석 가시화 / 레시피 결과 분석",
+            description: "LLM기반 RAG도입 / CoT RAG / ChatAgent Web서비스",
             categories: ['aillm']
         },
 
@@ -104,7 +104,7 @@ let render_projects = (slug) => {
             title: 'Document RAG',
             // demo: 'https://mporter.co',
             technologies: ['LLM', 'Azure', 'Streamlit', 'llamaindex', 'OCR'],
-            description: "실시간 이미지 프로세싱 개발 / 결과 분석 가시화 / 레시피 결과 분석",
+            description: "대량 문서 비동기성 RAG / Youtube, PPTX, DOCS, PDF형식 지원",
             categories: ['aillm']
         },
 
@@ -114,7 +114,7 @@ let render_projects = (slug) => {
             title: 'Document Translate',
             // demo: 'https://mporter.co',
             technologies: ['LLM', 'Azure', 'Streamlit', 'llamaindex', 'OCR'],
-            description: "실시간 이미지 프로세싱 개발 / 결과 분석 가시화 / 레시피 결과 분석",
+            description: "PPTX, DOCS, PDF형식 보존형 번역실시",
             categories: ['aillm']
         }
 
