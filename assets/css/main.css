@@ -457,10 +457,14 @@ a {
   display: grid;
   -ms-grid-columns: (minmax(120px, 1fr))[auto-fill];
       grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-  margin: 20px 0;
+  margin: 20px auto;
   grid-gap: 5px;
   grid-row-gap: 10px;
   width: 100%;
+}
+
+.project-technologies a {
+  text-align: center; /* <a> 태그 안의 텍스트를 중앙 정렬 */
 }
 
 .project-technology {
