@@ -79,16 +79,6 @@ let render_projects = (slug) => {
         },
 
         {
-            image: 'assets/images/us_map.png',
-            // link: 'https://github.com/abhn/Mporter',
-            title: '미국 판매 법인 물류 효율화',
-            // demo: 'https://mporter.co',
-            technologies: ['PowerBI', 'Azure', 'Airflow', 'MSSQL', 'APIs', 'GERP'],
-            description: "실시간 이미지 프로세싱 개발 / 결과 분석 가시화 / 레시피 결과 분석",
-            categories: ['businessanalysis']
-        },
-
-        {
             image: 'assets/images/kr_sales.png',
             // link: 'https://github.com/abhn/Mporter',
             title: '한국 판매 법인 경영 정보 가시화',
