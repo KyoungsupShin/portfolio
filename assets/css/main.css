@@ -460,11 +460,7 @@ a {
   margin: 20px auto;
   grid-gap: 5px;
   grid-row-gap: 10px;
-  width: 40%;
-}
-
-.project-technologies a {
-  text-align: center; /* <a> 태그 안의 텍스트를 중앙 정렬 */
+  width: 35%;
 }
 
 .project-technology {
