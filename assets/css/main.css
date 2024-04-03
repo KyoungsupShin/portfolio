@@ -198,8 +198,6 @@ img {
   font-size: 2.5rem;
   color: #222;
   font-weight: bold;
-  justify-content: center;
-
 }
 
 .nav-links {
@@ -462,8 +460,7 @@ a {
   margin: 20px auto;
   grid-gap: 5px;
   grid-row-gap: 10px;
-  width: 100%;
-  justify-content: center; /* 그리드 아이템을 수평으로 가운데 정렬 */
+  width: 40%;
 }
 
 .project-technologies a {
