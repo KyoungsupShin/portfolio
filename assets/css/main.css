@@ -508,6 +508,7 @@ a {
     grid-row-gap: 10px;
     /* width: 100%; */
     width: fit-content;
+    margin: 20px auto;
   }
 
   #nav {
