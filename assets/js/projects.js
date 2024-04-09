@@ -12,25 +12,25 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/classification.png',
             // link: 'https://github.com/abhn/Mporter',
-            title: 'Classification',
+            title: 'Blackspot EL Classification',
             // demo: 'https://mporter.co',
             technologies: ['CentOS', 'ResNet', 'APIs', 'Spotfire', 'Python'],
-            description: "30가지 불량 분류 이미지 프로세싱 / 불량 패터닝 가시화 / 레시피 결과 분석",
+            description: "30가지 불량 분류 이미지 프로세싱 / 불량 패터닝 가시화 / 레시피 공정 분석",
             categories: ['smartfactory']
         },
         {
             image: 'assets/images/detection.png',
             // link: 'https://github.com/abhn/Mporter',
-            title: 'Object detection',
+            title: 'Object detection & PLC interface',
             // demo: 'https://mporter.co',
             technologies: ['RTPS', 'CentOS', 'Pytorch', 'YOLOv5', 'PyQT5'],
-            description: "실시간 영상 프로세싱 / 불량 패터닝 가시화 / MES 및 설비 제어",
+            description: "실시간 영상 프로세싱 / 불량 패터닝 가시화 / PLC 설비 제어",
             categories: ['smartfactory']
         },
         {
             image: 'assets/images/print_obj.png',
             // link: 'https://github.com/abhn/Mporter',
-            title: 'Object detection & Report',
+            title: 'Object detection & MES interface',
             // demo: 'https://mporter.co',
             technologies: ['RTPS', 'CentOS', 'Pytorch', 'YOLOv5', 'APIs'],
             description: "실시간 촬영 이미지 프로세싱 / 불량 패터닝 가시화 / MES 및 설비 제어",
@@ -40,10 +40,10 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/segmentation.png',
             // link: 'https://github.com/abhn/Mporter',
-            title: 'Segmentation',
+            title: 'Segmentation detection',
             // demo: 'https://mporter.co',
             technologies: ['FTP', 'CentOS', 'Pytorch', 'Detectron', 'PyQT5'],
-            description: "촬영 이미지 분석 / 통계분석 가시화 / 촤적 레시피 산출 자동화",
+            description: "SEM 촬영 이미지 분석 / 통계분석 가시화 / 촤적 레시피 산출 자동화",
             categories: ['smartfactory']
         },
 
