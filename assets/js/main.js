@@ -7,9 +7,4 @@ document.addEventListener('DOMContentLoaded', () => {
       target.scrollIntoView({ behavior: 'smooth' });
     });
   });
-
-  document.querySelectorAll('.skillbar').forEach((skillbar) => {
-    const bar = skillbar.querySelector('.skillbar-bar');
-    if (bar) bar.style.width = skillbar.dataset.percent;
-  });
 });
