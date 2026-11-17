@@ -36,9 +36,7 @@ a { color: inherit; }
 
 .profile-pic { border: 4px solid rgba(255,255,255,.8); border-radius: 50%; box-shadow: 0 15px 45px rgba(0,0,0,.25); height: 150px; object-fit: cover; width: 150px; }
 .profile-pic-div { display: flex; justify-content: center; margin-bottom: 1.5rem; }
-.hero-cta, .nav-links, .project-filter { border-radius: 999px; cursor: pointer; font: inherit; font-weight: 700; text-decoration: none; }
-.hero-cta { background: #fff; color: var(--brand-dark); display: inline-block; padding: .75rem 1.2rem; }
-.hero-cta:hover, .hero-cta:focus-visible { background: #dceaff; outline-offset: 4px; }
+.nav-links, .project-filter { border-radius: 999px; cursor: pointer; font: inherit; font-weight: 700; text-decoration: none; }
 .head-menu-wrap { display: flex; flex-wrap: wrap; gap: .55rem; justify-content: center; margin: 2.5rem auto 0; width: min(100%, 680px); }
 .nav-links { border: 1px solid rgba(255,255,255,.4); color: #fff; font-size: .8rem; padding: .55rem .85rem; }
 .nav-links:hover, .nav-links:focus-visible { background: #fff; color: var(--brand-dark); outline-offset: 3px; }
