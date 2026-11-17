@@ -11,7 +11,7 @@ const projects = [
   { image: 'assets/images/chat.png', title: 'Tech sensing', technologies: ['LLM', 'Azure', 'Streamlit', 'llamaindex', 'Selenium'], description: 'LLM기반 RAG도입 / CoT RAG / ChatAgent Web서비스', categories: ['aillm'] },
   { image: 'assets/images/rag.png', title: 'Document RAG', technologies: ['LLM', 'Azure', 'Streamlit', 'llamaindex', 'OCR'], description: '대량 문서 비동기성 RAG / Youtube, PPTX, DOCS, PDF형식 지원', categories: ['aillm'] },
   { image: 'assets/images/translate.png', title: 'Document Translate', technologies: ['LLM', 'Azure', 'Streamlit', 'llamaindex', 'OCR'], description: 'PPTX, DOCS, PDF형식 보존형 번역실시', categories: ['aillm'] },
-  { image: 'assets/gif/03_agent_to_agent.gif', title: 'F&B Collaboration Agent', technologies: ['Agent AI', 'Orchestration', 'LLM', 'SAP'], description: 'F&B 업무 요청을 처리하는 Orchestration Agent 기반 실시간 협업 서비스', categories: ['agentai'] }
+  { image: 'assets/gif/03_agent_to_agent.gif', title: 'Agent Harness', technologies: ['Agent AI', 'Orchestration', 'LLM', 'SAP'], description: 'F&B 업무 요청을 처리하는 Orchestration Agent 기반 실시간 협업 서비스', categories: ['agentai'] }
 ];
 
 const createElement = (tagName, className, text) => {
