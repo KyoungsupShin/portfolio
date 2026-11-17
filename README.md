@@ -1,6 +1,6 @@
 # Portfolio
 
-A simple and modern portfolio template that is lightweight, mobile responsive and looks modern. 
+A lightweight, mobile-responsive portfolio built with Jekyll, vanilla JavaScript, and modern CSS.
 
 - [Demo](#demo)
 - [Screenshots](#screenshots)
@@ -14,16 +14,16 @@ A simple and modern portfolio template that is lightweight, mobile responsive an
 ![homepage](tmp/screenshot.jpg?raw=true "Homepage")
 
 ### Features
-- Single page portfolio made with vanilla CSS and jQuery
+- Single page portfolio made with vanilla CSS and JavaScript
 - Sections: Landing, About, Skills (with neat bar graphs), Projects, Contact
-- Smooth scrolling
-- Fully mobile responsive, made with latest CSS3 grid and flexbox, polyfills included
+- Smooth scrolling and accessible project-category filtering
+- Fully mobile responsive, made with CSS grid and flexbox
 - Lightweight and easily customizable
 
 ### Installation
-- Clone this repository and in the settings, set up Github pages in the setting and optionally a custom domain. The site is live now on `your-username.github.io/portfolio`.
-- In the config variables, add your details and if you use Google Analytics, add your Publisher ID in the `google_analytics` variable.
-- You can add/remove sections from the `_layouts/default.html` file, and then adding the corresponding html file in `_includes/` directory.
+- Clone this repository, run `bundle install`, then use `bundle exec jekyll serve` for local preview.
+- Configure GitHub Pages (and optionally a custom domain) in repository settings. The site is then available at `your-username.github.io/portfolio`.
+- Update the site details in `_config.yml`; sections are composed in `_layouts/default.html` from `_includes/`.
 
 ### License
 GPL

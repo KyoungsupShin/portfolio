@@ -6,14 +6,8 @@ site_title: '@portfolio - Kyoungsup shin'
 markdown: kramdown
 exclude: [vendor/ruby]
 
-# Personalization/workspaces/portfolio/vendor
-github_username: kyoungsup.shin
-blog_url: https://kyoungsupshin.github.io/portfolio/
+# Contact
 email: sks8803@gmail.com
-
 
 # absolute or relative
 profile_picture: assets/images/IMG_4030.jpg
-
-# Google Analytics ID
-google_analytics: 
