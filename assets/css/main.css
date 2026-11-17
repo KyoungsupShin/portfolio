@@ -39,7 +39,7 @@ a { color: inherit; }
 .hero-cta, .nav-links, .project-filter { border-radius: 999px; cursor: pointer; font: inherit; font-weight: 700; text-decoration: none; }
 .hero-cta { background: #fff; color: var(--brand-dark); display: inline-block; padding: .75rem 1.2rem; }
 .hero-cta:hover, .hero-cta:focus-visible { background: #dceaff; outline-offset: 4px; }
-.head-menu-wrap { bottom: 2rem; display: flex; flex-wrap: wrap; gap: .55rem; justify-content: center; left: 50%; position: absolute; transform: translateX(-50%); width: min(100% - 2rem, 680px); }
+.head-menu-wrap { display: flex; flex-wrap: wrap; gap: .55rem; justify-content: center; margin: 2.5rem auto 0; width: min(100%, 680px); }
 .nav-links { border: 1px solid rgba(255,255,255,.4); color: #fff; font-size: .8rem; padding: .55rem .85rem; }
 .nav-links:hover, .nav-links:focus-visible { background: #fff; color: var(--brand-dark); outline-offset: 3px; }
 
