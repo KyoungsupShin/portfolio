@@ -11,8 +11,10 @@ const projects = [
   { image: 'assets/images/chat.png', title: 'Tech sensing', technologies: ['LLM', 'Azure', 'Streamlit', 'llamaindex', 'Selenium'], description: 'LLM기반 RAG도입 / CoT RAG / ChatAgent Web서비스', categories: ['aillm'] },
   { image: 'assets/images/rag.png', title: 'Document RAG', technologies: ['LLM', 'Azure', 'Streamlit', 'llamaindex', 'OCR'], description: '대량 문서 비동기성 RAG / Youtube, PPTX, DOCS, PDF형식 지원', categories: ['aillm'] },
   { image: 'assets/images/translate.png', title: 'Document Translate', technologies: ['LLM', 'Azure', 'Streamlit', 'llamaindex', 'OCR'], description: 'PPTX, DOCS, PDF형식 보존형 번역실시', categories: ['aillm'] },
-  { image: 'assets/gif/03_agent_to_agent.gif', title: 'Agent Harness', technologies: ['Agent AI', 'Orchestration', 'LLM', 'SAP'], description: 'F&B 업무 요청을 처리하는 Orchestration Agent 기반 실시간 협업 서비스', categories: ['agentai'] },
-  { image: 'assets/gif/01_agent_workflow.gif', title: 'Multi Agent', technologies: ['Multi Agent', 'Agent AI', 'Orchestration', 'LLM'], description: '여러 AI Agent가 역할을 분담하고 협업하는 업무 자동화 워크플로우', categories: ['agentai'] }
+  { image: 'assets/gif/03_agent_to_agent.gif', imageFit: 'contain', title: 'Agent Harness', technologies: ['Agent AI', 'Orchestration', 'LLM', 'SAP'], description: 'F&B 업무 요청을 처리하는 Orchestration Agent 기반 실시간 협업 서비스', categories: ['agentai'] },
+  { image: 'assets/gif/01_agent_workflow.gif', imageFit: 'contain', title: 'Multi Agent', technologies: ['Multi Agent', 'Agent AI', 'Orchestration', 'LLM'], description: '여러 AI Agent가 역할을 분담하고 협업하는 업무 자동화 워크플로우', categories: ['agentai'] },
+  { image: 'assets/images/page2-1-workflow.png', imageFit: 'contain', title: 'Compliance AI Report', technologies: ['Agent AI', 'LLM', 'Compliance', 'PostgreSQL'], description: '의심 거래 분석과 보고서 생성을 지원하는 LLM 기반 컴플라이언스 업무 플랫폼', categories: ['agentai'] },
+  { image: 'assets/images/page2-1-ai-process.png', imageFit: 'contain', title: 'Multi-Agent Workflow', technologies: ['Multi Agent', 'LLM', 'Orchestration', 'Webhook'], description: '여러 AI Agent와 LLM 체인을 오케스트레이션하는 업무 자동화 워크플로우', categories: ['agentai'] }
 ];
 
 const createElement = (tagName, className, text) => {
@@ -29,7 +31,7 @@ const createProjectCard = (project) => {
   const image = document.createElement('img');
   image.src = project.image;
   image.alt = `${project.title} 프로젝트 이미지`;
-  image.className = 'border-tlr-radius project-image';
+  image.className = `border-tlr-radius project-image${project.imageFit === 'contain' ? ' project-image--contain' : ''}`;
   imageContainer.append(image);
 
   const content = createElement('div', 'card__content card__padding');
