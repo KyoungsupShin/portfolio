@@ -6,8 +6,8 @@
 .card { background: #fff; border: 1px solid #dce5f3; box-shadow: none; height: 100%; margin: 0; overflow: hidden; text-align: left; transition: box-shadow .25s ease, transform .25s ease; }
 .card:hover { box-shadow: 0 16px 35px rgba(20, 48, 93, .13); transform: translateY(-4px); }
 .card__padding { padding: 1rem 1.4rem 1.4rem; }
-.card__image { background: #eee; border-bottom: 1px solid lightgray; height: 180px; overflow: hidden; }
-.project-image { height: 100%; object-fit: cover; transition: transform .5s; width: 100%; }
+.card__image { aspect-ratio: 16 / 9; background: #f3f6fb; border-bottom: 1px solid #dce5f3; overflow: hidden; }
+.project-image { height: 100%; object-fit: cover; object-position: center; transition: transform .5s; width: 100%; }
 .project-image:hover { transform: scale(1.1); }
 .project-image--contain { object-fit: contain; }
 .project-image--contain:hover { transform: none; }
