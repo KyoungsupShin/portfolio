@@ -58,5 +58,5 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   filters.forEach((filter) => filter.addEventListener('click', () => renderProjects(filter.dataset.category)));
-  renderProjects('all');
+  renderProjects('smartfactory');
 });
